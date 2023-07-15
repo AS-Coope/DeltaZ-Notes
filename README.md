@@ -15,4 +15,4 @@ For v1.0:
 
 | Functional Requirements | Non-Functional Requirements |
 |---|---|
-| - [ ] The app shall allow the user to make a note which consists of a heading and then the note details (the body of the note) | - [ ] The app shall save the user's data persistently even after the app is closed | 
+| <ul><li>- [ ] The app shall allow the user to make a note which consists of a heading and then the note details (the body of the note)</ul></li> | <ul><li>- [ ] The app shall save the user's data persistently even after the app is closed </ul></li> | 
