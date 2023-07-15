@@ -14,7 +14,7 @@ To use this project:
 For v1.0:
 
 | Functional Requirements | Non-Functional Requirements |
-|---|---|
+| ----------------------- | --------------------------- |
 | <ul><li>- [ ] The app shall allow the user to make a note which consists of a heading, and the note details (the body of the note)</ul></li> | <ul><li>- [ ] The app shall save the user's data persistently, even after the app is closed </ul></li> | 
 | <ul><li>- [ ] The app shall allow the user to select the app theme from a selection of standard themes</ul></li> | |
 | <ul><li>- [ ] The app shall store the details about each note locally (such as heading, time created and time last updated)</ul></li> | |
