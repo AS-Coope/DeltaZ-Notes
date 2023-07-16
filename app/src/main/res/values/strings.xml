@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">DeltaZNotes</string>
+
+    <!--Note 1-->
+    <string name="note1_heading">Pokemon Yellow</string>
+    <string name="note1_contents">Charizard, Blastoise, Venasaur, Pikachu, Eevee</string>
+    <!--Note 2-->
+    <string name="note2_heading">Pokemon Crystal</string>
+    <string name="note2_contents">Typhlosion, Feraligatr, Meganium</string>
+    <!--Note 3-->
+    <string name="note3_heading">Pokemon Emerald</string>
+    <string name="note3_contents">Sceptile, Blaziken, Swampert</string>
+    <!--Note 4-->
+    <string name="note4_heading">Pokemon Platinum</string>
+    <string name="note4_contents">Infernape, Torterra, Empolean</string>
+    <!--Note 5-->
+    <string name="note5_heading">Pokemon Black/White/White2/Black2</string>
+    <string name="note5_contents">Emboar, Serperior, Samurott</string>
+    <!--Note 6-->
+    <string name="note6_heading">Pokemon X/Y</string>
+    <string name="note6_contents">Chesnaught, Delphox, Greninja</string>
+    <!--Note 7-->
+    <string name="note7_heading">Pokemon X/Y</string>
+    <string name="note7_contents">Decidueye, Primarina, Incineroar</string>
 </resources>
