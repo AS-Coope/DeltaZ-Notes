@@ -3,5 +3,8 @@
     <style name="Base.Theme.DeltaZNotes" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/cyan_200</item>
+        <item name="colorPrimaryVariant">@color/cyan_500</item>
+        <item name="colorOnPrimary">@color/black</item>
     </style>
 </resources>
