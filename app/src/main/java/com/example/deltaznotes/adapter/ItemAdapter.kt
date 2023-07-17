@@ -15,7 +15,7 @@ class ItemAdapter(
 ): RecyclerView.Adapter<ItemAdapter.ItemViewHolder>(){
 
     // provides the blueprint of what a view holder for a single note comprises
-    class ItemViewHolder(private val view: View): RecyclerView.ViewHolder(view){
+    class ItemViewHolder(view: View): RecyclerView.ViewHolder(view){
         val noteHeading: TextView = view.findViewById(R.id.note_heading)
         val noteContentsPreview: TextView = view.findViewById(R.id.note_contents_preview)
     }
