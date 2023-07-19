@@ -8,6 +8,7 @@
         <item name="colorOnPrimary">@color/black</item>
 
         <item name="colorSecondary">@color/cyan_700</item>
+        <!--NOTE: colorAccent is treated as colorSecondary based on the list_item.xml file's reference-->
     </style>
 
     <style name="Theme.DeltaZNotes" parent="Base.Theme.DeltaZNotes" />
