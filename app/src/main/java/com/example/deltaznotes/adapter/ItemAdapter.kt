@@ -29,6 +29,8 @@ class ItemAdapter(
 
         override fun onClick(v: View?) {
             // opening the details activity for a specific note that is clicked from the recyclerview
+            // will eventually have to pass a note object when the function to move around notes
+            // in the recycler view is added
             val intent = Intent(context, DetailsActivity::class.java)
             intent.putExtra("NOTE", adapterPosition)
             context.startActivity(intent)
