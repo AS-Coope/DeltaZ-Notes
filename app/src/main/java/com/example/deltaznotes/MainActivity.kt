@@ -1,11 +1,8 @@
 package com.example.deltaznotes
 
-import android.icu.lang.UCharacter.VerticalOrientation
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.GridLayout
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.deltaznotes.adapter.ItemAdapter
 import com.example.deltaznotes.data.DataSource
 import com.example.deltaznotes.databinding.ActivityMainBinding
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val notes = DataSource().loadNotes()
         //binding.recyclerView.layoutManager = StaggeredGridLayoutManager(rowCount, 1)
         binding.recyclerView.layoutManager = GridLayoutManager(this, rowCount)
-        binding.recyclerView.adapter = ItemAdapter(notes)
+        binding.recyclerView.adapter = ItemAdapter(this, notes)
         binding.recyclerView.setHasFixedSize(true)
     }
 }
